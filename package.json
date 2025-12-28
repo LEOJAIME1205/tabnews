@@ -4,7 +4,9 @@
   "description": "Um projeto completo, com o objetivo de aprimorar, e de aprender mais, as minhas habilidades como um programador profissional.  É também uma implementação do tabnews.com.br para o curso.dev",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "author": "",
   "license": "MIT",
@@ -12,5 +14,8 @@
     "next": "^13.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.7.4"
   }
 }
